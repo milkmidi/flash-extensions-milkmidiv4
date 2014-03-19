@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dialog id="ui"  title="Change Class"  buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<rows>			
+			<row>
+				<label value="Base Class name"  control="suffix" />
+				<textbox id="baseClassName" value=""  width="250pix" />				
+			</row>
+			<row>				
+				<checkbox label="export in first frame" checked="true"  id="exportInFirstFrame" />				
+			</row>			
+		</rows>
+	</grid>
+</dialog>

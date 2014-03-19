@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<dialog title="Prefix Name" buttons="accept,cancel">
+  <grid>
+    <columns>
+      <column/>      
+    </columns>
+    <row>
+      <label value="label: " />
+      <textbox id="prefix" value="" multiline="false" maxlength="100" />
+    </row>	
+  </grid>
+  <separator/>
+</dialog>

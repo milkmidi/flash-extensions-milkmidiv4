@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dialog id="ui"  title="Bitmapdata Quality"  buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<rows>			
+			<row>
+				<label value="quality"  control="suffix" />
+				<textbox id="quality" value="90"  width="250pix" />				
+			</row>
+			<row>				
+				<checkbox label="allowSmoothing" checked="true"  id="allowSmoothing" />				
+			</row>			
+		</rows>
+	</grid>
+</dialog>
+

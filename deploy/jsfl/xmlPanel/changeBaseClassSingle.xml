@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+
+<!-- 
+2010/8/27 10:23 , baseClassName value flash.display.MovieClip
+-->
+<dialog id="ui"  title="Change Class"  buttons="accept, cancel" >
+	<grid>
+		<columns>
+			<column/>
+			<column/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Class Name"  control="suffix" />
+				<textbox id="className" value=""  width="250pix" />
+			</row>
+			<row>
+				<label value="Base Class name"  control="suffix" />
+				<textbox id="baseClassName" value="flash.display.MovieClip"  width="250pix" />				
+			</row>
+			<row>				
+				<checkbox label="export in first frame" checked="true"  id="exportInFirstFrame" />
+				<radiogroup id="baseClassType" tabindex="1">
+					<radio label="custom class" selected="true" />
+					<radio label="flash.display.MovieClip"  />
+					<radio label="flash.display.Sprite" />								
+				</radiogroup>
+			</row>
+			<row>	
+				<checkbox label="auto set library name" checked="true"  id="autoSetLibraryName" />
+			</row>
+		</rows>
+	</grid>
+</dialog>
+

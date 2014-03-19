@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<dialog title="BitmapData Property" >
+	
+	
+	<flash width="400" height="300" src="BitmapItemPanel.swf" >
+		<property id='quality' value='90' />		
+		<property id='smooth' value='true' />		
+	</flash>	
+</dialog>

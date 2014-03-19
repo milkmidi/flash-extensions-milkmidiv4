@@ -1,0 +1,30 @@
+<macromedia-extension name="milkmidiV4" version="4.0.5" type="flash panel" requires-restart="true">
+  <description>
+    <![CDATA[Tool Panel is available in the Other Panels menu inside Flash, by way of:<br>
+Window > Other Panels > milkmidiV4<br>]]>
+  </description>
+  <ui-access>
+    <![CDATA[Design by milkmidi<br>http://milkmidi.com]]>
+  </ui-access>
+  <products>
+    <product name="flash" primary="false" version="9"/>
+  </products>
+  <author name="milkmidi"/>
+  <files>
+    <file source="milkmidiV4.swf" destination="$flash/WindowSWF"/>
+    <file source="jsfl/xmlPanel/changeBaseClass.xml" destination="$flash/WindowSWF/xmlPanel"/>
+    <file source="jsfl/xmlPanel/changeBaseClassSingle.xml" destination="$flash/WindowSWF/xmlPanel"/>    
+	<file source="jsfl/xmlPanel/addLabelInSelectedSymbol.xml" destination="$flash/WindowSWF/xmlPanel"/> 
+	<file source="jsfl/xmlPanel/setSelectedNamesByPosition.xml" destination="$flash/WindowSWF/xmlPanel"/> 
+    <file source="jsfl/[milkmidi] addStopFrames.jsfl" destination="$flash/Commands"/>
+	<file source="jsfl/[gskinner] BitmapSlice9.jsfl" destination="$flash/Commands"/>
+    <file source="jsfl/milkmidiJsfl.jsfl" destination="$flash/WindowSWF"/>	
+	<file source="components/LabelComponent.swc" destination="$flash/Components/milkmidi"/>    	
+	
+	<file source="jsfl/xmlPanel/bitmapQuality.xml" destination="$flash/WindowSWF/xmlPanel"/>    	
+	<file source="jsfl/xmlPanel/BitmapItemPanel.swf" destination="$flash/WindowSWF/xmlPanel"/>    	
+	<file source="jsfl/xmlPanel/BitmapItemPanel.xml" destination="$flash/WindowSWF/xmlPanel"/>    	
+	<file source="jsfl/xmlPanel/BitmapItemPanel.txt" destination="$flash/WindowSWF/xmlPanel"/>    	
+  </files>
+  <configuration-changes/>
+</macromedia-extension>
